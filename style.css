@@ -29,8 +29,37 @@ p {
     line-height: 1.6;
 }
 
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+h4 a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #1d0460;
+}
 .wine{
     font-size: 16px;
     font-style: italic;
     color:rgb(32, 10, 10);
 }
+
+.quote {
+    font-style: italic;
+}
+
+a.back {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 40px 40px 40px 40px;
+    color: #1d0460;
+    display: block;
+}
+
+p.nb {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
