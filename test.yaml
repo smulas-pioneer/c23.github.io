@@ -1,0 +1,32 @@
+menu:
+  titolo: "Menu di Capodanno"
+  piatti:
+    - tipo: "Aperitivo"
+      titolo_originale: "Aperitivo"
+      vino: "Metodo classico TrentoDoc, Cesarini Sforza, Sboccatura 2023"
+
+    - tipo: "Antipasto"
+      titolo_originale: "Vellutata di Zucca con Capesante"
+      vino: "Sauvignon - Villa Parens, 2022"
+
+    - tipo: "Primo Piatto"
+      titolo_originale: "Lasagna al Salmone"
+      vino: "Sauvignon - Villa Parens, 2022"
+
+    - tipo: "Secondo Piatto"
+      titolo_originale: "Orate al Forno con Patate"
+      vino: "Chardonnay Fallwind - St. Michael Eppan, 2022"
+
+    - tipo: "Insalata"
+      titolo_originale: "Insalata con Mele e Noci"
+
+    - tipo: "Dolce"
+      titolo_originale: "New York Cheesecake ai Frutti di Bosco"
+      vino: "Metodo classico TrentoDoc, Cesarini Sforza, Sboccatura 2023"
+
+    - tipo: "Tradizione di Mezzanotte"
+      titolo_originale: "Cotechino con Lenticchie"
+
+    - tipo: "Chiusura"
+      nome: "Panettone artigianale con Crema Chantilly"
+      vino: "Metodo classico TrentoDoc, Cesarini Sforza, Sboccatura 2023"
