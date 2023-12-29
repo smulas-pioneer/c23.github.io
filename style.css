@@ -38,6 +38,7 @@ h4 a {
   font-size: 24px;
   color: #1d0460;
 }
+
 .wine{
     font-size: 16px;
     font-style: italic;
@@ -46,6 +47,7 @@ h4 a {
 
 .quote {
     font-style: italic;
+    font-size: 14px;
 }
 
 a.back {
@@ -57,9 +59,23 @@ a.back {
 }
 
 p.nb {
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
     padding-top: 10px;
     font-weight: bold;
+}
+
+p.notes {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+span.on {
+    font-size: 20px;
+}
+span.off {
+    opacity: 0.6;
+    font-size: 14px;
 }
 
