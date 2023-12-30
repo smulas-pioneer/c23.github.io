@@ -1,7 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-
-    color: #6a5d4d;
+    color: #2e2822;
     background-color: #f9f3e9;
     padding: 0;
     margin:0;
@@ -26,19 +25,19 @@ h3 {
 .quote {
     margin-left: 5%;
     margin-right: 5%;
-    color: #9c8c7a;
 }
 
 .wine {
     font-style: italic;
-    color: #9c8c7a;
+    color: #5a5147;
 }
 
 .back {
     font-style: italic;
     text-decoration: none;
-    color: #504a3e;
     font-family: 'Carattere';
+    display: block;
+    padding: 3vh;
 }
 
 
