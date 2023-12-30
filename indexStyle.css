@@ -7,6 +7,8 @@ body {
     font-size: 2vh;
 }
 
+
+
 .flex {
     margin:0;
     display: flex;
@@ -15,6 +17,8 @@ body {
     justify-content: space-around;
     gap: 2vh;
 }
+
+
 
 .list {
     display: flex;
