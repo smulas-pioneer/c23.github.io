@@ -1,17 +1,36 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     color: #6a5d4d;
     background-color: #f9f3e9;
-    margin: 5px;
     padding: 0;
     text-align: center;
+    font-size: 2vh;
 }
 
 .flex {
+    position: fixed;
+    margin:0;
     display: flex;
     flex-direction: column; 
-    height: 95vh; 
+    width: 100vw;
+    height: 100vh; 
     justify-content: space-around;
     gap: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+
+.flex0 {
+    flex:0
+}
+
+.flex1 {
+    flex:1
 }
 
 .elegant {
@@ -20,37 +39,34 @@ body {
 }
 
 h1 {
-    font-size: 50px;
     margin-bottom: 0;
-}
-
-h1 .on {
-    font-size: 40px;
+    font-size: 5vh;
     font-style: italic;
 }
 
-.quote {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 20px;
-    color: #9c8c7a;
+h1.subtitle {
+    font-size: 4vh;
 }
 
-h2 {
-    font-size: 40px;
-    margin: 20px 0;
-    padding: 0;
+.quote {
+    font-size: 1.9vh;
+    font-style: italic;
+    color: #9c8c7a;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h4 {
-    font-size: 18px;
-    margin: 10px 0;
+    margin:0;
 }
 
 h4 a {
     text-decoration: none;
     color: #6a5d4d;
     transition: color 0.3s ease;
+    font-weight: normal;
 }
 
 h4 a:hover {
@@ -58,9 +74,10 @@ h4 a:hover {
 }
 
 .nb, .notes {
-    font-size: 14px;
+    font-size: 1.5vh;
     color: #9c8c7a;
-    margin: 2px 35px 2px 35px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .nb {
@@ -87,10 +104,3 @@ h4 a:hover {
     height: 50px;
 }
 
-
-/* Per i link ai vari menu */
-.menu-links h4 {
-    margin: 15px 0;
-}
-
-/* Personalizza ulteriormente con classi specifiche se necessario */
